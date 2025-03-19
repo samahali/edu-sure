@@ -1,0 +1,14 @@
+Route Breakdown
+Route	Component	    Description
+/	        Home	    Landing page with hero section
+/courses	Courses	    Displays available courses
+/cart	    Cart	    Shopping cart for courses
+/login	    Login	    User login page
+/admin	    Admin	    Admin dashboard (if applicable)
+
+
+Conclusion
+With this setup, users can navigate seamlessly between pages without a full-page reload. 
+The NavBar component provides links to different pages, and React Router handles the rendering based on the URL.
+
+Done by Samah Ali
