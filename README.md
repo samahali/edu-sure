@@ -77,7 +77,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/edu-sure" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
@@ -100,7 +100,7 @@ function NavBar() {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/edu-sure">Home</Link></li>
         <li><Link to="/courses">Courses</Link></li>
         <li><Link to="/cart">Cart</Link></li>
         <li><Link to="/login">Login</Link></li>

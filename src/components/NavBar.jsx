@@ -33,7 +33,7 @@ export default function NavBar() {
     >
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Enhanced Logo */}
-        <Link to="/" className="flex items-center group">
+        <Link to="/edu-sure" className="flex items-center group">
           <div className="relative flex items-center">
             {/* Logo Background */}
             <div
@@ -165,7 +165,7 @@ export default function NavBar() {
           {/* Navigation Links */}
           <ul className="flex flex-col md:flex-row md:space-x-1 text-center md:text-left mt-16 md:mt-0">
             {[
-              { path: "/", label: "Home" },
+              { path: "/edu-sure", label: "Home" },
               { path: "/courses", label: "Courses" },
               { path: "/cart", label: "Cart" },
               { path: "/admin", label: "Admin" },
