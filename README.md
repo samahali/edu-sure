@@ -77,11 +77,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/edu-sure" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/edu-sure/" element={<Home />} />
+        <Route path="/edu-sure/courses" element={<Courses />} />
+        <Route path="/edu-sure/cart" element={<Cart />} />
+        <Route path="/edu-sure/login" element={<Login />} />
+        <Route path="/edu-sure/admin" element={<Admin />} />
       </Routes>
     </>
   );
@@ -100,11 +100,11 @@ function NavBar() {
   return (
     <nav>
       <ul>
-        <li><Link to="/edu-sure">Home</Link></li>
-        <li><Link to="/courses">Courses</Link></li>
-        <li><Link to="/cart">Cart</Link></li>
-        <li><Link to="/login">Login</Link></li>
-        <li><Link to="/admin">Admin</Link></li>
+        <li><Link to="/edu-sure/">Home</Link></li>
+        <li><Link to="/edu-sure/courses">Courses</Link></li>
+        <li><Link to="/edu-sure/cart">Cart</Link></li>
+        <li><Link to="/edu-sure/login">Login</Link></li>
+        <li><Link to="/edu-sure/admin">Admin</Link></li>
       </ul>
     </nav>
   );

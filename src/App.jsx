@@ -11,11 +11,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/edu-sure" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/edu-sure/" element={<Home />} />
+        <Route path="/edu-sure/courses" element={<Courses />} />
+        <Route path="/edu-sure/cart" element={<Cart />} />
+        <Route path="/edu-sure/login" element={<Login />} />
+        <Route path="/edu-sure/admin" element={<Admin />} />
       </Routes>
     </>
   )

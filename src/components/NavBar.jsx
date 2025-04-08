@@ -33,7 +33,7 @@ export default function NavBar() {
     >
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Enhanced Logo */}
-        <Link to="/edu-sure" className="flex items-center group">
+        <Link to="/edu-sure/" className="flex items-center group">
           <div className="relative flex items-center">
             {/* Logo Background */}
             <div
@@ -165,10 +165,10 @@ export default function NavBar() {
           {/* Navigation Links */}
           <ul className="flex flex-col md:flex-row md:space-x-1 text-center md:text-left mt-16 md:mt-0">
             {[
-              { path: "/edu-sure", label: "Home" },
-              { path: "/courses", label: "Courses" },
-              { path: "/cart", label: "Cart" },
-              { path: "/admin", label: "Admin" },
+              { path: "/edu-sure/", label: "Home" },
+              { path: "/edu-sure/courses", label: "Courses" },
+              { path: "/edu-sure/cart", label: "Cart" },
+              { path: "/edu-sure/admin", label: "Admin" },
             ].map((item) => (
               <li key={item.path}>
                 <Link
@@ -202,7 +202,7 @@ export default function NavBar() {
             {/* Special Button for Login */}
             <li className="mt-4 md:mt-0 mx-4 md:mx-0 md:ml-4">
               <Link
-                to="/login"
+                to="/edu-sure/login"
                 className="
                   block py-2 px-4
                   bg-gradient-to-r from-amber-400 to-yellow-300
