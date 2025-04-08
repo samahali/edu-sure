@@ -32,5 +32,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3  # This action publishes the built files to GitHub Pages
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Uses the GitHub token to push changes
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Ensure the token has the correct permissions
           publish_dir: ./dist  # This specifies the directory containing the built files for deployment
+          user_name: 'github-actions'  # Optional: you can specify the user name for the commit
+          user_email: 'github-actions@users.noreply.github.com'  # Optional: you can specify the email for the commit
