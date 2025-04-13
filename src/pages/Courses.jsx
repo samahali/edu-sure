@@ -92,7 +92,7 @@ export default function Courses() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-blue-600">{course.price}</span>
-                  <Link to={`/courses/${course.id}`}>
+                  <Link to={`/edu-sure/courses/${course.id}`}>
                     <button className="px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-medium rounded-lg hover:from-yellow-500 hover:to-orange-600 transition-all duration-300">
                       View Course
                     </button>

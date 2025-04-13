@@ -97,7 +97,7 @@ export default function Cart() {
               Looks like you haven't added any courses to your cart yet. Discover our top-rated courses to start your
               learning journey.
             </p>
-            <Link to="/courses">
+            <Link to="/edu-sure/courses">
               <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 <span className="flex items-center">
                   <svg
@@ -481,7 +481,7 @@ export default function Cart() {
 
                 <div className="mt-6 text-center">
                   <Link
-                    to="/courses"
+                    to="/edu-sure/courses"
                     className="text-blue-600 hover:text-blue-800 font-medium flex items-center justify-center"
                   >
                     <svg

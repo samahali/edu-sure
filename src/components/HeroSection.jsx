@@ -51,7 +51,7 @@ export default function HeroSection() {
           Transform your future with our expertly crafted courses designed to empower your learning journey. Start
           today!
         </p>
-        <Link to="/courses">
+        <Link to="/edu-sure/courses">
           <button className="mt-8 px-8 py-4 bg-gradient-to-r from-yellow-400 to-orange-500
            text-white font-semibold rounded-lg shadow-xl hover:from-yellow-500 hover:to-orange-600 cursor-pointer
            hover:scale-110 transition-all duration-300 transform-gpu">
