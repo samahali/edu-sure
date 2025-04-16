@@ -4,6 +4,13 @@
 EduSure is a React-based frontend application for an e-learning platform. It features a homepage with a hero section, a global navigation bar, and multi-page routing using React Router. check `01JNPZC39ZEYQEYJH61B1PDQ8M.pdf` of requirements.
 and check `minimal-documention.txt` for minimal doc explaining route setup.
 
+---
+## Live Demo
+
+To see it live [click here](https://samahali.github.io/edu-sure/)
+
+---
+
 ## Features
 - **React Router Integration**: Enables seamless navigation between pages.
 - **Hero Section**: A visually appealing banner with a call-to-action.
